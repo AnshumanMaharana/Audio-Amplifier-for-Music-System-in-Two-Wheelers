@@ -1,0 +1,29 @@
+Circuit: * C:\Users\anshuman\Desktop\TVS Internship\LTSpice Simulations\Draft2.asc
+
+Error on line 5 : l1 nc_07 nc_08 l
+	 Unknown parameter "l"
+Error on line 6 : l2 n002 nc_09 l
+	 Unknown parameter "l"
+Error on line 7 : l3 nc_10 n002 l
+	 Unknown parameter "l"
+Error on line 8 : l4 nc_11 nc_12 l
+	 Unknown parameter "l"
+Error on line 9 : l5 nc_13 nc_14 l
+	 Unknown parameter "l"
+Error on line 10 : r2 nc_15 nc_16 r
+	 Unable to find definition of model "r"
+Error on line 11 : r3 nc_17 nc_18 r
+	 Unable to find definition of model "r"
+Error on line 12 : c1 nc_19 nc_20 c
+	 Unable to find definition of model "c"
+Error on line 13 : r4 nc_21 nc_22 r
+	 Unable to find definition of model "r"
+Error on line 14 : c2 nc_23 nc_24 c
+	 Unable to find definition of model "c"
+Error on line 15 : r5 nc_25 nc_26 r
+	 Unable to find definition of model "r"
+Error on line 17 : v3 nc_27 nc_28 v
+	 Unknown parameter "v"
+Error on line 18 : l6 nc_29 nc_30 l
+	 Unknown parameter "l"
+Fatal Error: Missing inductance value for "L6"

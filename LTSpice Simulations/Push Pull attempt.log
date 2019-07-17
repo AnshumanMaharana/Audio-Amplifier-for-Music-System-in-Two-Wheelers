@@ -1,0 +1,26 @@
+Circuit: * C:\Users\anshuman\Desktop\TVS Internship\LTSpice Simulations\Push Pull attempt.asc
+
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.96045e-011 to 4.0196e-009
+Heightened Def Con from 4.02164e-009 to 1.00216e-008
+Heightened Def Con from 1.40812e-008 to 1.58312e-008
+Heightened Def Con from 1.70356e-008 to 2.20356e-008
+Heightened Def Con from 2.20376e-008 to 2.60376e-008
+
+Date: Sat Jun 29 18:32:20 2019
+Total elapsed time: 0.118 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9785
+traniter = 9775
+tranpoints = 2625
+accept = 2123
+rejected = 507
+matrix size = 18
+fillins = 27
+solver = Normal
+Matrix Compiler1:     170 opcodes  0.6/[0.4]/0.6
+Matrix Compiler2: off  [0.3]/0.3/0.4
+

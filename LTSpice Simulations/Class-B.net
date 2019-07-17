@@ -1,0 +1,20 @@
+* C:\Users\anshuman\Desktop\TVS Internship\LTSpice Simulations\Class-B.asc
+Q1 N001 N003 N005 0 2N3055
+Q2 N007 N006 N005 0 D45H11
+D1 N003 N004 D
+D2 N004 N006 D
+R1 N001 N003 1.2k
+R2 N006 N007 700
+C1 N003 N002 20µ
+C2 N006 N002 20µ
+R3 0 N005 1k
+V1 N001 0 12
+V2 N002 0 SINE(0 1 10kHz)
+.model D D
+.lib C:\Users\anshuman\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\anshuman\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 1m 0 100u
+.backanno
+.end
